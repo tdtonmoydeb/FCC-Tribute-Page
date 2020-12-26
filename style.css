@@ -1,0 +1,129 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+#title{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 3rem;
+    font-weight: 1000;
+    font-family: arial;
+}
+
+#subTitle{
+    font-size: 2rem;
+    text-align: center;
+    color: #555;
+    margin-top: 1rem;
+}
+
+
+#img-div{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 3rem;
+    background: #aaa;
+    margin-top: 3rem;
+    box-shadow: inset 0rem -0.2rem 1rem rgb(0,0,0,0.2)
+}
+
+#image{
+    max-width: 100%;
+    border-radius: 1rem;
+}
+
+#img-caption{
+    color: #fff;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    text-transform: capitalize;
+    padding: 0rem 2rem;
+    text-align: center;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+
+
+#tribute-info{
+    margin-top: 5rem;
+    font-size: 2rem;
+}
+
+#headline{
+    text-align: center;
+    font-size: 3rem;
+    color: #111;
+}
+
+#tribute-info ul{
+    color: #222;
+    padding: 0rem 5rem;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+@media (max-width: 460px) {
+    #tribute-info ul{
+        padding: 0rem 3rem;
+    }
+}
+
+#tribute-info ul li{
+    margin-top: 3rem;
+}
+
+#tribute-info ul li:first-child{
+    margin-top: 0;
+}
+
+#tribute-info ul strong{
+    color: #000;
+}
+
+#tribute-info blockquote{
+    margin-top: 10rem;
+    widows: 100%;
+    background: #aaa;
+    padding: 3rem 5rem;
+    color: #000;
+    font-size: 1.8rem;
+    font-style: italic;
+    color: #fff;
+    text-align: center;
+    box-shadow: 
+        inset 0rem 0.2rem 1rem rgb(0,0,0,0.1),
+        inset 0rem -0.2rem 1rem rgb(0,0,0,0.1);
+}
+
+
+#tribute-info blockquote cite{
+    display: block;
+    margin-top: 3rem;
+}
+
+#referance{
+    padding: 2rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#referance a{
+    color: #37f;
+}
